@@ -35,23 +35,20 @@ was selected on.
 
 ## The equivalent-width cap
 
-The abundances in the paper use every line that passes the measurement tests, which
-reaches about 200 mA in the cool giants. Lines that strong are affected by blends in
-their wings, and because the strong lines are also the ones that set the
-microturbulence, the choice of where to truncate the line list moves the result. For the
-benchmark giant mu Leo, whose reference value is +0.25, truncating at 100, 120, and
-140 mA returns +0.250, +0.231, and +0.172, and with no cap the same procedure returns
-+0.079.
+The abundances in the paper use the Fe I lines with equivalent widths below 120 mA.
+Lines stronger than that are affected by blends in their wings, and because the strong
+lines are also the ones that set the microturbulence, including them biases the result
+low. For the benchmark giant mu Leo, whose reference value is +0.25, truncating at 100,
+120, and 140 mA returns +0.250, +0.231, and +0.172, and with no cap the same procedure
+returns +0.079. Relative to an uncapped solution the adopted cap raises the giants by
+about 0.14 dex, the subgiants by 0.07 dex, and the dwarfs by 0.05 dex.
 
 `data/feh_ewcaps.csv` gives the abundance, the microturbulence, and the number of
-retained lines for each spectrum at each of the four caps, so the size of this effect
-can be checked directly. The `full` rows reproduce the values in the paper. The `railed`
-column flags the spectra where the abundance against reduced-equivalent-width slope does
-not cross zero inside the search range, so the microturbulence sits at a boundary rather
-than at a balanced solution.
-
-Applying a 120 mA cap to the whole sample raises the giants by about 0.14 dex, the
-subgiants by 0.07 dex, and the dwarfs by 0.05 dex.
+retained lines for each spectrum at each of the four caps, so the effect of this choice
+can be checked directly. The `w120` rows are the values adopted in the paper and match
+`data/table_results.csv`. The `railed` column flags the spectra where the abundance
+against reduced-equivalent-width slope does not cross zero inside the search range, so
+the microturbulence sits at a boundary rather than at a balanced solution.
 
 ## Code
 
