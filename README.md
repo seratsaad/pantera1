@@ -19,8 +19,8 @@ gravity from the Gaia parallax.
 | `data/table_results.csv` | 62 | Adopted parameters and iron abundances, one row per spectrum |
 | `data/table_equivalent_widths.csv` | 4700 | Line-by-line equivalent widths with the atomic data |
 | `data/table_kinematics.csv` | 56 | Radial velocities, space motions, actions, and orbital quantities |
-| `data/feh_ewcaps.csv` | | Iron abundances at four equivalent-width caps, one row per spectrum and cap |
-| `data/feh_ewcaps_star.csv` | | The same, averaged over the spectra of each star |
+| `data/feh_ewcaps.csv` | 248 | Iron abundances at four equivalent-width caps, one row per spectrum and cap |
+| `data/feh_ewcaps_star.csv` | 224 | The same, averaged over the spectra of each star |
 
 Stars are identified by their Gaia DR3 source identifier in every table. Six stars were
 observed with more than one spectrograph, which is why the results table has 62 rows for
