@@ -3,7 +3,7 @@
 Data and code for the first paper of PANTERA, a high-resolution spectroscopic survey
 of the most metal-rich stars in the solar neighborhood.
 
-Saad et al., in preparation. The reference will be updated when the paper is accepted.
+Paper Link: https://arxiv.org/abs/2607.27328
 
 The sample is 56 stars selected from the Gaia DR3 XP metallicities of Andrae et al.
 (2023) and observed with PEPSI on the Large Binocular Telescope, the Levy spectrograph
